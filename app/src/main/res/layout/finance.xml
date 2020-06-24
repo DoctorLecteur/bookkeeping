@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".FinanceActivity"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_weight="10"
+        android:layout_height="fill_parent"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="80"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Заработано"
+            android:textSize="25dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/totalsum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="0"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_finance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/add_finance"
+            android:onClick="add_finance"
+            android:layout_weight="1" />
+
+
+        <Button
+            android:id="@+id/exit_finance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/exit"
+            android:onClick="exit_finance"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

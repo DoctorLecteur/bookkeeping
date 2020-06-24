@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">bookkeeping</string>
+    <string name="add_account">Добавить счет</string>
+    <string name="add_expense">Добавить расходы</string>
+    <string name="add_finance">Добавить доходы</string>
+    <string name="expense">Расходы</string>
+    <string name="finance">Доходы</string>
+    <string name="exit">Выход</string>
+    <string name="date">Дата: </string>
+    <string name="name">Наименование: </string>
+    <string name="category">Категория: </string>
+    <string name="time">Время: </string>
+    <string name="price">Цена за шт: </string>
+    <string name="kol">Количество: </string>
+    <string name="sum">Стоимость: </string>
+    <string name="total">Сумма: </string>
+    <string name="ediz">Единицы измерения: </string>
+    <string name="add">Добавить</string>
+    <string name="cancel">Отмена</string>
+    <string name="ras_add_message">Расходы добавлены</string>
+    <string name="ras_add_message_finance">Доходы добавлены</string>
+    <string name="pref_task_title_key">default_reminder_title</string>
+    <string name="pref_default_time_from_now_key">time_from_now_default</string>
+    <string name="menu_insert">Добавить расходы</string>
+    <string name="menu_delete">Удалить расходы</string>
+    <string name="action_settings">Settings</string>
+</resources>
